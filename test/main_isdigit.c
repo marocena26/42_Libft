@@ -6,15 +6,17 @@
 /*   By: maarocen <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/09 16:49:45 by maarocen          #+#    #+#             */
-/*   Updated: 2023/03/14 16:10:13 by maarocen         ###   ########.fr       */
+/*   Updated: 2023/03/09 17:19:16 by maarocen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+ #include<stdio.h>
+ int	ft_isdigit(int c);
+ int	main(void)
+ {
+ 	int	c;
 
-int	ft_isdigit(int c)
-{
-	if (c >= '0' && c <= '9')
-		return (1);
-	return (0);
-}
+ 	c = '2';
+	ft_isdigit(c);
+ 	printf("%d", ft_isdigit(c));
+ }

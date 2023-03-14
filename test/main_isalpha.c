@@ -1,20 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+/*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: maarocen <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/09 16:49:45 by maarocen          #+#    #+#             */
-/*   Updated: 2023/03/14 16:10:13 by maarocen         ###   ########.fr       */
+/*   Created: 2023/03/09 12:37:58 by maarocen          #+#    #+#             */
+/*   Updated: 2023/03/09 13:40:09 by maarocen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-int	ft_isdigit(int c)
+#include<stdio.h>
+int	ft_isalpha(int c);
+int	main(void)
 {
-	if (c >= '0' && c <= '9')
-		return (1);
-	return (0);
+	int	c;
+	
+	c = '2';
+	ft_isalpha(c);
+	printf("%d", ft_isalpha(c));
 }

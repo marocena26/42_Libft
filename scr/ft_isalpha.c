@@ -6,7 +6,7 @@
 /*   By: maarocen <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/09 12:37:58 by maarocen          #+#    #+#             */
-/*   Updated: 2023/03/09 13:40:09 by maarocen         ###   ########.fr       */
+/*   Updated: 2023/03/14 16:09:24 by maarocen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,12 +18,3 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
-// #include<stdio.h>
-// int	main(void)
-// {
-// 	int	c;
-
-// 	c = '2';
-// 	ft_isalpha(c);
-// 	printf("%d", ft_isalpha(c));
-// }
