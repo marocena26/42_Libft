@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include <ctype.h>
 
-int isalnum(int c);
+int ft_isalnum(int c);
 int	main(void)
 {
 	int	c;
 	
-	c = '-?fgd2';
-	isalnum(c);
-	printf("%d", isalnum(c));
+	c = '*';
+	ft_isalnum(c);
+	printf("%d", ft_isalnum(c));
 }
