@@ -6,15 +6,15 @@
 /*   By: maarocen <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/15 16:23:48 by maarocen          #+#    #+#             */
-/*   Updated: 2023/03/15 16:23:51 by maarocen         ###   ########.fr       */
+/*   Updated: 2023/03/15 17:10:32 by maarocen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void    ft_bzero(void *s, size_t n)
+void	ft_bzero(void *s, size_t n)
 {
-    unsigned char	*ptr;
+	unsigned char	*ptr;
 	size_t			i;
 
 	ptr = (unsigned char *)s;
