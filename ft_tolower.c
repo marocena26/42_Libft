@@ -1,24 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_toupper.c                                       :+:      :+:    :+:   */
+/*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: maarocen <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/17 18:19:12 by maarocen          #+#    #+#             */
-/*   Updated: 2023/04/19 19:28:35 by maarocen         ###   ########.fr       */
+/*   Created: 2023/04/19 19:39:39 by maarocen          #+#    #+#             */
+/*   Updated: 2023/04/19 19:50:52 by maarocen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 /* DESCRIPCIÓN/
- * La función toupper() toma un único argumento en forma entero.
+ * La función tolower() toma un único argumento en forma entero.
  * VALOR DEVUELTO
  * Devuelve el entero restandole las 32 posiciones que hacen que pase de
- * minuscula a mayuscula.*/
+ * mayuscula a minuscula.*/
+
 #include "libft.h"
 
-int	ft_toupper(int c)
+int	ft_tolower(int c)
 {
-	if (c >= 'a' && c <= 'z')
-		return (c -= 32);
+	if (c >= 'A' && c <= 'Z')
+		return (c += 32);
 	return (c);
 }
